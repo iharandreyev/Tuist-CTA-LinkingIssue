@@ -1,6 +1,7 @@
 import ComposableArchitecture
 
 struct Feature: Reducer {
+    @ObservableState
     enum State {
         case none
         case some
