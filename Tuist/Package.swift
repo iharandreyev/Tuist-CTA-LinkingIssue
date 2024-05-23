@@ -6,7 +6,7 @@ import ProjectDescription
 
 let packageSettings = PackageSettings(
     productTypes: [
-        "swift-composable-architecture": .staticLibrary,
+        "swift-composable-architecture": .dynamicLibrary,
     ]
 )
 #endif
