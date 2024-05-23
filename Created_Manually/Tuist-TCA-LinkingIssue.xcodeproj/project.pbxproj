@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA1014EC2BFFB3CA00E596B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA1014E02BFFB3CA00E596B9 /* Preview Assets.xcassets */; };
+		FA1014ED2BFFB3CA00E596B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA1014E22BFFB3CA00E596B9 /* Assets.xcassets */; };
+		FA1014EE2BFFB3CA00E596B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA1014E32BFFB3CA00E596B9 /* LaunchScreen.storyboard */; };
+		FA1014EF2BFFB3CA00E596B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1014E52BFFB3CA00E596B9 /* ContentView.swift */; };
+		FA1014F02BFFB3CA00E596B9 /* Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1014E62BFFB3CA00E596B9 /* Feature.swift */; };
+		FA1014F12BFFB3CA00E596B9 /* Tuist-TCA-LinkingIssueApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1014E72BFFB3CA00E596B9 /* Tuist-TCA-LinkingIssueApp.swift */; };
+		FA1015002BFFB52800E596B9 /* Tuist-TCA-LinkingIssueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1014E92BFFB3CA00E596B9 /* Tuist-TCA-LinkingIssueTests.swift */; };
+		FA97E7C22BFFEB200021E762 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = FA97E7C12BFFEB200021E762 /* ComposableArchitecture */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA1014FB2BFFB51F00E596B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA82C4CB2BFFB3AA00BD2F9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA82C4D22BFFB3AA00BD2F9C;
+			remoteInfo = "Tuist-TCA-LinkingIssue";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA1014E02BFFB3CA00E596B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA1014E22BFFB3CA00E596B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA1014E32BFFB3CA00E596B9 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA1014E52BFFB3CA00E596B9 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA1014E62BFFB3CA00E596B9 /* Feature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feature.swift; sourceTree = "<group>"; };
+		FA1014E72BFFB3CA00E596B9 /* Tuist-TCA-LinkingIssueApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Tuist-TCA-LinkingIssueApp.swift"; sourceTree = "<group>"; };
+		FA1014E92BFFB3CA00E596B9 /* Tuist-TCA-LinkingIssueTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Tuist-TCA-LinkingIssueTests.swift"; sourceTree = "<group>"; };
+		FA1014F72BFFB51F00E596B9 /* Tuist-TCA-LinkingIssueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tuist-TCA-LinkingIssueTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA82C4D32BFFB3AA00BD2F9C /* Tuist-TCA-LinkingIssue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tuist-TCA-LinkingIssue.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA1014F42BFFB51F00E596B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA82C4D02BFFB3AA00BD2F9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA97E7C22BFFEB200021E762 /* ComposableArchitecture in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA1014E12BFFB3CA00E596B9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FA1014E02BFFB3CA00E596B9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA1014E42BFFB3CA00E596B9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FA1014E12BFFB3CA00E596B9 /* Preview Content */,
+				FA1014E22BFFB3CA00E596B9 /* Assets.xcassets */,
+				FA1014E32BFFB3CA00E596B9 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FA1014E82BFFB3CA00E596B9 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FA1014E52BFFB3CA00E596B9 /* ContentView.swift */,
+				FA1014E62BFFB3CA00E596B9 /* Feature.swift */,
+				FA1014E72BFFB3CA00E596B9 /* Tuist-TCA-LinkingIssueApp.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		FA1014EA2BFFB3CA00E596B9 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FA1014E92BFFB3CA00E596B9 /* Tuist-TCA-LinkingIssueTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		FA1014EB2BFFB3CA00E596B9 /* Tuist-TCA-LinkingIssue */ = {
+			isa = PBXGroup;
+			children = (
+				FA1014E42BFFB3CA00E596B9 /* Resources */,
+				FA1014E82BFFB3CA00E596B9 /* Sources */,
+				FA1014EA2BFFB3CA00E596B9 /* Tests */,
+			);
+			name = "Tuist-TCA-LinkingIssue";
+			path = "../Tuist-TCA-LinkingIssue";
+			sourceTree = "<group>";
+		};
+		FA82C4CA2BFFB3AA00BD2F9C = {
+			isa = PBXGroup;
+			children = (
+				FA1014EB2BFFB3CA00E596B9 /* Tuist-TCA-LinkingIssue */,
+				FA82C4D42BFFB3AA00BD2F9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA82C4D42BFFB3AA00BD2F9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA82C4D32BFFB3AA00BD2F9C /* Tuist-TCA-LinkingIssue.app */,
+				FA1014F72BFFB51F00E596B9 /* Tuist-TCA-LinkingIssueTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA1014F62BFFB51F00E596B9 /* Tuist-TCA-LinkingIssueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA1014FD2BFFB51F00E596B9 /* Build configuration list for PBXNativeTarget "Tuist-TCA-LinkingIssueTests" */;
+			buildPhases = (
+				FA1014F32BFFB51F00E596B9 /* Sources */,
+				FA1014F42BFFB51F00E596B9 /* Frameworks */,
+				FA1014F52BFFB51F00E596B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA1014FC2BFFB51F00E596B9 /* PBXTargetDependency */,
+			);
+			name = "Tuist-TCA-LinkingIssueTests";
+			productName = "Tuist-TCA-LinkingIssueTests";
+			productReference = FA1014F72BFFB51F00E596B9 /* Tuist-TCA-LinkingIssueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA82C4D22BFFB3AA00BD2F9C /* Tuist-TCA-LinkingIssue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA82C4E12BFFB3AB00BD2F9C /* Build configuration list for PBXNativeTarget "Tuist-TCA-LinkingIssue" */;
+			buildPhases = (
+				FA82C4CF2BFFB3AA00BD2F9C /* Sources */,
+				FA82C4D02BFFB3AA00BD2F9C /* Frameworks */,
+				FA82C4D12BFFB3AA00BD2F9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tuist-TCA-LinkingIssue";
+			packageProductDependencies = (
+				FA97E7C12BFFEB200021E762 /* ComposableArchitecture */,
+			);
+			productName = "Tuist-TCA-LinkingIssue_Created_Manually";
+			productReference = FA82C4D32BFFB3AA00BD2F9C /* Tuist-TCA-LinkingIssue.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA82C4CB2BFFB3AA00BD2F9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					FA1014F62BFFB51F00E596B9 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = FA82C4D22BFFB3AA00BD2F9C;
+					};
+					FA82C4D22BFFB3AA00BD2F9C = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = FA82C4CE2BFFB3AA00BD2F9C /* Build configuration list for PBXProject "Tuist-TCA-LinkingIssue" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA82C4CA2BFFB3AA00BD2F9C;
+			packageReferences = (
+				FA97E7C02BFFEB200021E762 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
+			productRefGroup = FA82C4D42BFFB3AA00BD2F9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA82C4D22BFFB3AA00BD2F9C /* Tuist-TCA-LinkingIssue */,
+				FA1014F62BFFB51F00E596B9 /* Tuist-TCA-LinkingIssueTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA1014F52BFFB51F00E596B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA82C4D12BFFB3AA00BD2F9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1014EE2BFFB3CA00E596B9 /* LaunchScreen.storyboard in Resources */,
+				FA1014ED2BFFB3CA00E596B9 /* Assets.xcassets in Resources */,
+				FA1014EC2BFFB3CA00E596B9 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA1014F32BFFB51F00E596B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1015002BFFB52800E596B9 /* Tuist-TCA-LinkingIssueTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA82C4CF2BFFB3AA00BD2F9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1014F02BFFB3CA00E596B9 /* Feature.swift in Sources */,
+				FA1014F12BFFB3CA00E596B9 /* Tuist-TCA-LinkingIssueApp.swift in Sources */,
+				FA1014EF2BFFB3CA00E596B9 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA1014FC2BFFB51F00E596B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA82C4D22BFFB3AA00BD2F9C /* Tuist-TCA-LinkingIssue */;
+			targetProxy = FA1014FB2BFFB51F00E596B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FA1014FE2BFFB51F00E596B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4SV42S9Y4F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iharandreyeu.Tuist-TCA-LinkingIssueTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tuist-TCA-LinkingIssue.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tuist-TCA-LinkingIssue";
+			};
+			name = Debug;
+		};
+		FA1014FF2BFFB51F00E596B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4SV42S9Y4F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iharandreyeu.Tuist-TCA-LinkingIssueTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tuist-TCA-LinkingIssue.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tuist-TCA-LinkingIssue";
+			};
+			name = Release;
+		};
+		FA82C4DF2BFFB3AB00BD2F9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA82C4E02BFFB3AB00BD2F9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA82C4E22BFFB3AB00BD2F9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"../Tuist-TCA-LinkingIssue/Resources/Preview Content\"";
+				DEVELOPMENT_TEAM = 4SV42S9Y4F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iharandreyeu.Tuist-TCA-LinkingIssue-Created-Manually";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA82C4E32BFFB3AB00BD2F9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"../Tuist-TCA-LinkingIssue/Resources/Preview Content\"";
+				DEVELOPMENT_TEAM = 4SV42S9Y4F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iharandreyeu.Tuist-TCA-LinkingIssue-Created-Manually";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA1014FD2BFFB51F00E596B9 /* Build configuration list for PBXNativeTarget "Tuist-TCA-LinkingIssueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1014FE2BFFB51F00E596B9 /* Debug */,
+				FA1014FF2BFFB51F00E596B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA82C4CE2BFFB3AA00BD2F9C /* Build configuration list for PBXProject "Tuist-TCA-LinkingIssue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA82C4DF2BFFB3AB00BD2F9C /* Debug */,
+				FA82C4E02BFFB3AB00BD2F9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA82C4E12BFFB3AB00BD2F9C /* Build configuration list for PBXNativeTarget "Tuist-TCA-LinkingIssue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA82C4E22BFFB3AB00BD2F9C /* Debug */,
+				FA82C4E32BFFB3AB00BD2F9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FA97E7C02BFFEB200021E762 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.10.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FA97E7C12BFFEB200021E762 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA97E7C02BFFEB200021E762 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FA82C4CB2BFFB3AA00BD2F9C /* Project object */;
+}
