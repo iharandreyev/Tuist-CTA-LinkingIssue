@@ -17,3 +17,7 @@ When instantiating the registrar, everything is going according to plan:
 However, when trying to mutate the registrar, non-iOS 17 if branch is used, even though when inspecting app state through lldb, the picture is different:
 
 ![PerceptionRegistrar.withMutation](https://github.com/iharandreyev/Tuist-CTA-LinkingIssue/blob/main/PerceptionRegistrar.withMutation.png?raw=true)
+
+Updating to [Tuist 4.1.15](https://github.com/tuist/tuist/releases/tag/4.15.0) does not help.
+Changing product type to `.dynamicLibrary` does not help.
+Linking TCA as project package instead of target dependency causes even more linking issues (similar to initial errors).
