@@ -4,6 +4,7 @@ import Foundation
 import XCTest
 
 final class LinkingIssueSampleAppTests: XCTestCase {
+    @MainActor
     func testReducer() async {
         let store = TestStoreOf<Feature>(
             initialState: .none,
