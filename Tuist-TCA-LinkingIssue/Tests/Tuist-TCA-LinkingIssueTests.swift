@@ -1,4 +1,4 @@
-@testable import Tuist_CTA_LinkingIssue
+@testable import Tuist_TCA_LinkingIssue
 import ComposableArchitecture
 import Foundation
 import XCTest
