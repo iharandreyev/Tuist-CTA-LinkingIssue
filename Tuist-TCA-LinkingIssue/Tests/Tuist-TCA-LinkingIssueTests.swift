@@ -1,4 +1,11 @@
+#if canImport(Tuist_TCA_LinkingIssue)
 @testable import Tuist_TCA_LinkingIssue
+#endif
+
+#if canImport(Tuist_TCA_LinkingIssue_Created_Manually)
+@testable import Tuist_TCA_LinkingIssue_Created_Manually
+#endif
+
 import ComposableArchitecture
 import Foundation
 import XCTest
